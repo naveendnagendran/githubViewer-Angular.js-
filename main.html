@@ -1,0 +1,12 @@
+
+<div class="container">
+	<form name="searchUser" ng-submit="search(username)">	
+		<input type="search" name="username" required ng-model="username"/>
+		<input type="submit">
+	</form>
+
+	<div ng-include="'user.html'" ng-show="user"></div>
+</div>
+	
+		
+
